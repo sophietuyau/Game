@@ -1,35 +1,22 @@
-﻿<?xml version="1.0" encoding="UTF-8" ?>
-<widget id="sophietuyau" version="1.0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.gs.calc"
+    versionCode = "1"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+<!-- version is in major.minor.patch format-->
+	
 	<name>The Revenge of the Dark Elves</name>
+	
 	<description>Adventure Game</description>
-	<author>Anne-Sophie Tuyau</author>
 
-	<icon src="www/icon-256.png" width="256" height="256" density="xxxhdpi" />
-	<icon src="www/icon-128.png" width="128" height="128" density="xhdpi" />
+  <author href="https://build.phonegap.com" email="sophietuyau.st@gmail.com">
+      Sophie Tuyau
+  </author>
 
-	<preference name="android-targetSdkVersion" value="28" />
+  <icon src="www/icon-256.png" width="256" height="256" density="xxxhdpi" />
+<icon src="www/icon-128.png" width="128" height="128" density="xhdpi" />
 
-	<preference name="orientation" value="default" />
-	<preference name="fullscreen" value="true" />
-	<preference name="DisallowOverscroll" value="true" />
-	<preference name="AllowInlineMediaPlayback" value="true" />
-
-	<config-file parent="UIStatusBarHidden" platform="ios" target="*-Info.plist"><true/></config-file>
-	<config-file parent="UIViewControllerBasedStatusBarAppearance" platform="ios" target="*-Info.plist"><false/></config-file>
-
-
-	<preference name="deployment-target" value="10.0" />
-	<preference name="android-minSdkVersion" value="21" />
-	<access origin="*" />
-
-	<plugin name="cordova-custom-config" />
-	<plugin name="cordova-plugin-ad-admob" />
-	<plugin name="cordova-plugin-file" />
-	<plugin name="cordova-plugin-statusbar" />
-	<plugin name="cordova-plugin-whitelist" />
-	<plugin name="cordova-plugin-wkwebview-engine" />
-
-
-	<engine name="ios" />
-	<engine name="android" />
 </widget>
