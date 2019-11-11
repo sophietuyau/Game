@@ -18,5 +18,23 @@
 
   <icon src="www/icon-256.png" width="256" height="256" density="xxxhdpi" />
 <icon src="www/icon-128.png" width="128" height="128" density="xhdpi" />
+	
+	<preference value="default" name="orientation"/>
+
+<preference value="true" name="fullscreen"/>
+
+<plugin name="cordova-custom-config"/>
+
+<plugin name="cordova-plugin-ad-admob"/>
+
+<plugin name="cordova-plugin-file"/>
+
+<plugin name="cordova-plugin-inappbrowser"/>
+
+<plugin name="cordova-plugin-statusbar"/>
+
+<plugin name="cordova-plugin-whitelist"/>
+
+<plugin name="cordova-plugin-wkwebview-engine"/>
 
 </widget>
