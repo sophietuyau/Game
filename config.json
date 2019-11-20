@@ -29,7 +29,7 @@
 		{ "id": "cordova-plugin-wkwebview-engine", "version": null }
 	],
 	"android": {
-		"min": 21,
+		"min": 22,
 		"target": 28,
 		"plugins": []
 	},
